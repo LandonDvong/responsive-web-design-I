@@ -201,4 +201,31 @@ h1, h2, h3, h4, h5 {
 	text-align: center;
 	font-size: 14px;
   }
+
+	/* mobile */
+
+@media ( max-width: 500px ) { 
+     
 }
+	header {
+			width: 70%;
+			display: flex;
+			flex-direction: column-reverse;
+			text-align: center;
+			margin: auto;
+			justify-content: space-between;
+	}
+	header nav {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	
+	}
+.cta-text {
+	display: flex;
+	margin: auto;
+}
+.jumbotron {
+	display: none;
+	}
+
